@@ -24,7 +24,7 @@ where kind is
 	2. entropy: a constraint file used by RNAstructure to specificy the entropy constraints
 	3. probs: the probability plot output from RNAstructure containing log10 probability for each base pair with positive probability.
 	4. mibps: the base pairs whose presence/absence defines that node
-Finally there is a <RNA_NAME>.mat file. If loaded in matlab it will give access to some summary statistics including:
+5. Finally there is a <RNA_NAME>.mat file in the results folder. If loaded in matlab it will give access to some summary statistics including:
 	1. RNA_LENGTH: length of the sequence
 	2. n: number of regions
 	3. probs: probility of regions without entropy constraints
