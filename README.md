@@ -1,14 +1,13 @@
-##Installation
+## Installation
 To install, you will need to make a few small changes to RNA structure. Follow
 instructions in changes_to_RNAstructure.txt and modify program_constants.txt 
-to reflect the new location of RNAstructure.
+to reflect the location of RNAstructure. Using the standard RNAstructure 
+executables is okay, but the probability of entropy constraints will not be correct. 
 
-##Instructions for running
+## Instructions for running
 1. To run the MIBP script, make this folder your current matlab directory and
-execute the master_script_hibp.m script. It runs modified RNAstructure executable,
-which were compiled for Linux (CentOS release 6.5). Using standard
-RNAstructure executables is okay, but the probability of entropy constraints
-will not be correct.
+execute the master_script_hibp.m script.
+
 2. To change which RNA molecule is being considered edit the program_constants.txt file.
 
 3. After completion, visualization.html will appear. Open this with firefox to view a 
@@ -21,11 +20,11 @@ visualization.html and make sure that it is in the same folder as a folder calle
 interested in this, you may wish to delete it before running again. The format for the file names is:
 <RNA_NAME>_<node_name>_<kind>
 where kind is
-energy: the total free energy of structures in the node (region or well in the paper). This value is used to calculate the probability of a region/well.
+energy: the total free energy of structures in the node. This value is used to calculate the probability of a cluster.
 entropy: a constraint file used by RNAstructure to specificy the entropy constraints
 probs: the probability plot output from RNAstructure containing log10 probability for each base pair with positive probability.
 mibps: the base pairs whose presence/absence defines that node
-Finally there is a <RNA_NAME>.mat file. If loaded in matlab it will give access to the summary statistics given in the paper:
+Finally there is a <RNA_NAME>.mat file. If loaded in matlab it will give access to some summary statistics including:
 RNA_LENGTH: length of the sequence
 n: number of regions
 probs: probility of regions without entropy constraints

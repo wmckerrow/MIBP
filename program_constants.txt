@@ -28,7 +28,7 @@ FORCED_UNPAIRED = [];
 
 % you should change these for your computer
 
-% path to RNAstructure folder:
+% SET PATH TO RNAstruture HERE:
 RNASTRUCT_PATH = '/users/wmckerro/RNAstructureMIBP/';
 
 % path to specific RNAstructure programs
