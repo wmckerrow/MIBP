@@ -20,20 +20,20 @@ visualization.html and make sure that it is in the same folder as a folder calle
 interested in this, you may wish to delete it before running again. The format for the file names is:
 <RNA_NAME>_<node_name>_<kind>
 where kind is
-a. energy: the total free energy of structures in the node. This value is used to calculate the probability of a cluster.
-b. entropy: a constraint file used by RNAstructure to specificy the entropy constraints
-c. probs: the probability plot output from RNAstructure containing log10 probability for each base pair with positive probability.
-d. mibps: the base pairs whose presence/absence defines that node
+1. energy: the total free energy of structures in the node. This value is used to calculate the probability of a cluster.
+2. entropy: a constraint file used by RNAstructure to specificy the entropy constraints
+3. probs: the probability plot output from RNAstructure containing log10 probability for each base pair with positive probability.
+4. mibps: the base pairs whose presence/absence defines that node
 Finally there is a <RNA_NAME>.mat file. If loaded in matlab it will give access to some summary statistics including:
-a. RNA_LENGTH: length of the sequence
-b. n: number of regions
-c. probs: probility of regions without entropy constraints
-d. probs_le: probility of regions with entropy constraints
-e. all_structs: number of possible structure
-f. structs: structures in each region without entropy constraints
-g. structs_le: structures in each region with entropy constraints
-h. sum_of_bp_entropy: sum of base pair entropy for the ensemble
-i. entropies_le: sum of base pair entropy for each region with entropy constraints
-j. centroids: centroids of each region
-k. native_cluster: regions that contains the native structure
+1. RNA_LENGTH: length of the sequence
+2. n: number of regions
+3. probs: probility of regions without entropy constraints
+4. probs_le: probility of regions with entropy constraints
+5. all_structs: number of possible structure
+6. structs: structures in each region without entropy constraints
+7. structs_le: structures in each region with entropy constraints
+8. sum_of_bp_entropy: sum of base pair entropy for the ensemble
+9. entropies_le: sum of base pair entropy for each region with entropy constraints
+10. centroids: centroids of each region
+11. native_cluster: regions that contains the native structure
 l. tree_strings: binary string name of node (1=go right, 0=go left)
