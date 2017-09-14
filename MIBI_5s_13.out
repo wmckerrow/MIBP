@@ -1,0 +1,329 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 16949134
+##  Job Name : MIBI_5s_13
+##  Nodelist : node423
+##      CPUs : 1
+##  Mem/Node : 8192 MB
+## Directory : /gpfs/scratch/wmckerro/MIBP_runs/5s_13
+##   Started : Fri Jul 21 15:04:41 EDT 2017
+###############################################################################
+
+Starting MATLAB in single-threaded, command-line mode...
+To launch the MATLAB GUI or to run with multiple threads, use 'matlab-threaded'.
+
+If you have any questions about how to correctly run MATLAB on Oscar, see
+
+  https://www.ccv.brown.edu/doc/matlab.html
+
+or contact 'support@ccv.brown.edu'.
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                    R2014a (8.3.0.532) 64-bit (glnxa64)
+                             February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+sampling at root
+calculating energy
+
+num_MIBPs_left =
+
+   100
+
+Calculating MI for 
+
+tree_path =
+
+     ''
+
+
+
+ans =
+
+   13.9745
+
+
+max_MI =
+
+   13.9745
+
+splitting 19 60 in cluster 
+0
+1
+
+num_MIBPs_left =
+
+    99
+
+Calculating MI for 
+
+tree_path =
+
+0
+
+
+ans =
+
+   18.6558
+
+Calculating MI for 
+
+tree_path =
+
+1
+
+
+ans =
+
+    4.7673
+
+
+max_MI =
+
+    3.9296
+
+splitting 79 98 in cluster 1
+10
+11
+
+num_MIBPs_left =
+
+    98
+
+Calculating MI for 
+
+tree_path =
+
+10
+
+
+ans =
+
+    2.1744
+
+Calculating MI for 
+
+tree_path =
+
+11
+
+
+ans =
+
+    2.1332
+
+
+max_MI =
+
+    3.2783
+
+splitting 30 48 in cluster 0
+00
+01
+
+num_MIBPs_left =
+
+    97
+
+Calculating MI for 
+
+tree_path =
+
+00
+
+
+ans =
+
+   19.0460
+
+Calculating MI for 
+
+tree_path =
+
+01
+
+
+ans =
+
+   10.4915
+
+
+max_MI =
+
+    2.4100
+
+splitting 4 117 in cluster 00
+000
+001
+
+num_MIBPs_left =
+
+    96
+
+Calculating MI for 
+
+tree_path =
+
+000
+
+
+ans =
+
+    8.3878
+
+Calculating MI for 
+
+tree_path =
+
+001
+
+
+ans =
+
+    9.5604
+
+
+max_MI =
+
+    1.6860
+
+Calculating cluster info
+
+n =
+
+     5
+
+
+n =
+
+     5
+
+calculating low entropy info
+
+i =
+
+     1
+
+
+i =
+
+     2
+
+
+i =
+
+     3
+
+
+i =
+
+     4
+
+
+i =
+
+     5
+
+string:
+constrained Q
+   3.8573e+32
+
+unconstrained Q
+   3.8742e+32
+
+string:
+0
+constrained Q
+   6.7727e+31
+
+unconstrained Q
+   6.8080e+31
+
+string:
+1
+constrained Q
+   3.1899e+32
+
+unconstrained Q
+   3.1935e+32
+
+string:
+10
+constrained Q
+   3.0001e+32
+
+unconstrained Q
+   3.0040e+32
+
+string:
+11
+constrained Q
+   1.8956e+31
+
+unconstrained Q
+   1.8978e+31
+
+string:
+00
+constrained Q
+   4.8753e+31
+
+unconstrained Q
+   4.9023e+31
+
+string:
+01
+constrained Q
+   1.9003e+31
+
+unconstrained Q
+   1.9058e+31
+
+string:
+000
+constrained Q
+   1.4746e+31
+
+unconstrained Q
+   1.4801e+31
+
+string:
+001
+constrained Q
+   3.4024e+31
+
+unconstrained Q
+   3.4217e+31
+
+tree path:
+tree path:
+0
+tree path:
+1
+tree path:
+10
+tree path:
+11
+tree path:
+00
+tree path:
+01
+tree path:
+000
+tree path:
+001
+conf_prob 0:0.53783
+conf_prob 10:0.99396
+conf_prob 00:0.74329
+conf_prob 000:0.99685
+native_clust_prob:0.77537
+exp_clust_prob:0.99372
+rand_clust_prob:0.99685
+num_structs:6.315589874185814e+34,3.314858607135217e+24
+prob_le:0.99823
+entropy:49.0029,24.5056
+Finished execution at Fri Jul 21 15:17:22 EDT 2017

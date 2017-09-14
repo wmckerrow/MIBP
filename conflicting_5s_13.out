@@ -1,0 +1,29 @@
+
+Starting MATLAB in single-threaded, command-line mode...
+To launch the MATLAB GUI or to run with multiple threads, use 'matlab-threaded'.
+
+If you have any questions about how to correctly run MATLAB on Oscar, see
+
+  https://www.ccv.brown.edu/doc/matlab.html
+
+or contact 'support@ccv.brown.edu'.
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                    R2014a (8.3.0.532) 64-bit (glnxa64)
+                             February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+conf_prob 0:0.53783
+5conf_prob 0:0.99515
+conf_prob 10:0.99396
+5conf_prob 10:0.99477
+conf_prob 00:0.74329
+5conf_prob 00:0.74711
+conf_prob 000:0.99685
+5conf_prob 000:0.99707
+Finished execution at Tue Jul 25 10:56:34 EDT 2017
